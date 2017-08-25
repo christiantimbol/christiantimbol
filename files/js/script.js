@@ -155,7 +155,7 @@ jQuery(window).load(function($) {
 				'right': '0'
 			}, 800, 'easeInOutQuart');
 			jQuery('html, body').animate({
-				scrollTop: 0
+				scrollTop: 0 // @1 remove this when I make the nav options pop-up depending on user screen position
 			}, 1000, 'easeInOutQuart');
 		}
 		return false;
