@@ -218,7 +218,7 @@
 		position: relative;
 		left: 50%;
 		right: 50%; /* quick visual fix */
-		font-size: 14px; /* quick visual fix */
+		font-size: 18px; /* quick visual fix */
 	}
    
 	#portfolio-single aside { border:none; padding-top:0; }
