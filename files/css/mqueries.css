@@ -114,6 +114,12 @@
     border: 4px solid rgba(255, 255, 255, .5);
 	}
 
+	.home-header-container h3 {
+		font-size: 20px; 
+		line-height: 28px; 
+	 }
+
+
 /*
 
 	.home-header-container .seperator {
