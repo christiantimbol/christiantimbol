@@ -1,6 +1,7 @@
 
 /***** slideshow.js: slideshow for #about without using flex-slider.js *****/
 
+/*
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -31,6 +32,8 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " activeSlide";
 }
+
+*/
 
 
 /*

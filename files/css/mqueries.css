@@ -1,7 +1,8 @@
 /*** Media Queries ***/
 
 
-/** Small Screens **/
+/** Small Screens: 1200px;
+---------------------------------------- **/
 @media only screen and (max-width: 1200px) {
     
 	#page-content { min-width: 940px; }
@@ -31,9 +32,11 @@
 	.main-content .three-fifth { width: 334px; }
 	.main-content .four-fifth { width: 472px; }
 
-}/*END Small Screens*/
+}
 
-/** Tablets (Portrait View) **/
+
+/** Tablets (Portrait): 1023px;
+---------------------------------------- **/
 @media only screen and (max-width: 1023px) {	
 
 	h1 { font-size: 80px; line-height: 100px; }
@@ -94,10 +97,11 @@
 	.one-third .iconbox-content { width: 170px; }
 	.one-fourth .iconbox-content { width: 105px; }
 
-}/*END Tablets*/
+}
 
 
-/** Smartphones **/
+/** Smartphones (Portrait): 760px;
+---------------------------------------- **/
 @media only screen and (max-width: 760px) {
 
 	/* quick visual fix for mobile */
@@ -107,8 +111,8 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-  	width: 150px;
-    height: 150px;
+  	width: 125px;
+    height: 125px;
     background-position: center;
     border-radius: 50%;
     border: 4px solid rgba(255, 255, 255, .5);
@@ -117,6 +121,11 @@
 	.home-header-container h3 {
 		font-size: 20px; 
 		line-height: 28px; 
+	 }
+
+	.home-header-container h5 a{
+		font-size: 16px; 
+		line-height: 22px; 
 	 }
 
 
@@ -276,7 +285,7 @@
 	.spacer.spacer-big { height: 60px; }
 
 
-}/*END Smartphones*/
+}
 
 
 

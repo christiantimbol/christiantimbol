@@ -530,10 +530,9 @@ header.header-overlay {
 
 	.home-header-container h5 a{
 		color: #4da5f5;
-	font-family: 'Raleway'; 
-	font-weight: 400;
+		font-family: 'Raleway'; 
+		font-weight: 400;
 		text-shadow: 1px 1px #262626;
-
 	 }
 
 	.home-header-container h5 a:hover{
@@ -1393,20 +1392,21 @@ a.sr-buttonicon {
     -moz-border-radius: 999px;
     -webkit-border-radius: 999px;
     -o-border-radius: 999px;
-	border: 2px solid #262626;
-    color: #262626;
+	border: 2px solid #4da5f5;
+    color: #4da5f5;
+    background: transparent;
     height: 40px !important;
     line-height: 40px !important;
     vertical-align: middle ;
     width: 40px ;
 	padding: 10px;
 }
-a.sr-buttonicon:hover { background: #262626; color: #ffffff; transform: scale(1.15); -ms-transform: scale(1.15); -webkit-transform: scale(1.15); }
+a.sr-buttonicon:hover { background: #4da5f5; color: #ffffff; /*transform: scale(1.15); -ms-transform: scale(1.15); -webkit-transform: scale(1.15);*/ }
 
 a.sr-buttonicon.small-iconbutton {
-	width: 34px ;
-	height: 35px !important;
-    line-height: 34px !important;
+	width: 24px ;
+	height: 25px !important;
+    line-height: 24px !important;
 	padding: 0px;
 	}
 
@@ -1605,6 +1605,7 @@ a.sr-buttonicon.small-iconbutton {
 ------------------------------------------------**/
 
 /** 14.1 Slideshow (not Flexslider) **/
+/*
 .SlideshowPics {
 	width: 100%;
 	border-radius: 5%;
@@ -1723,11 +1724,13 @@ a.sr-buttonicon.small-iconbutton {
 	to {opacity: 1}
 	}
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-	.prev, .next,.text {font-size: 11px}
-	}
+*/
 
+	/* On smaller screens, decrease text size */
+	/*@media only screen and (max-width: 300px) {
+		.prev, .next,.text {font-size: 11px}
+		}
+	*/
 
 
 /*
