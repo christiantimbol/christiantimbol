@@ -54,6 +54,15 @@ special/yellow-ish color: #FF970D;
 transition: all 200ms linear;
  }
 
+.about-section-point h5 {
+	color: #666666;
+	font-family: 'Raleway' ;
+	font-weight: 600;
+}
+
+.about-section-point p {
+
+}
 
 
 

@@ -289,8 +289,7 @@ function flexInit(el) {
 	if(jQuery().flexslider) { 
 		jQuery(el+" .flexslider").flexslider({
 			animation: "slide",
-			slideshowSpeed: 7000,
-			animationDuration: 1000,
+			animationSpeed: 300,
 			slideshow: false,
 			directionNav: true,
 			controlNav: true,
