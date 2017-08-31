@@ -25,9 +25,9 @@ jQuery(window).load(function($) {
 				if (i == 0) { // Safari bug fix when scrolling + callback 
 					var currentheight = jQuery( ".ajax-section" ).height();
 					jQuery( ".ajax-section" ).css({ 'min-height' : currentheight+'px' });
-					jQuery( '.close-project' ).fadeOut(500);
+					jQuery( '.close-project' ).fadeOut(200);
 					jQuery( "#portfolio-single .project-title" ).animate({ 'top': '-60px'}, 600, 'easeOutQuart');
-					jQuery( "#portfolio-single .social-share li" ).animate({ top: '-30px'}, 600, 'easeOutQuart'); // reenable in CSS and input into HTMLs
+					jQuery( "#portfolio-single .project-links" ).animate({ top: '-30px'}, 600, 'easeOutQuart'); // reenable in CSS and input into HTMLs
 					jQuery( "#portfolio-single .entry-media" ).animate({ 'top': '60px'}, 600, 'easeOutQuart');
 					jQuery( "#portfolio-single .entry-content" ).animate({ 'top': '60px'}, 600, 'easeOutQuart');
 					jQuery( ".ajax-content" ).fadeOut(600, function(){
@@ -102,7 +102,7 @@ jQuery(window).load(function($) {
 		var url = jQuery(this).attr('href');
 		var scrolltop = jQuery('header').height() - 1;
 		
-		jQuery( '.close-project' ).fadeOut(500);
+		jQuery( '.close-project' ).fadeOut(200);
 		jQuery( ".ajax-content" ).animate({ opacity: 0}, 500, function() {
 			jQuery( this ).slideUp(700, 'easeOutQuart', function() {
 			  jQuery( ".ajax-content" ).empty(); 
@@ -129,7 +129,7 @@ jQuery(window).load(function($) {
 function portfolioPreviewHide(){ 
 	
 	jQuery( "#portfolio-single .project-title" ).css({ 'top': '-60px', opacity: 0 });
-	jQuery( "#portfolio-single .social-share li" ).css({ top: '-30px', opacity: 0 });
+	jQuery( "#portfolio-single .project-links" ).css({ top: '-30px', opacity: 0 });
 	jQuery( "#portfolio-single .entry-media" ).css({ 'top': '60px', opacity: 0 });
 	jQuery( "#portfolio-single .entry-content" ).css({ 'top': '60px', opacity: 0 });
 	jQuery( "#portfolio-single .project-title .single-pagination .next").css({ 'left': '60%', opacity: 0 });
@@ -143,7 +143,7 @@ function portfolioShow(){
 		'top': '0', opacity: 1 
 	}, 500, 'easeOutQuart');
 		
-	jQuery( ".social-share li" ).delay(400).each(function(index, element) {
+	jQuery( ".project-links" ).delay(400).each(function(index, element) {
 		var delay = index*80;
 		jQuery( this ).delay(delay).animate({ 
 			'top': '0', opacity: 1 
@@ -177,7 +177,7 @@ function portfolioShow(){
 	}, 600, 'easeOutBack');
 	
 	// Shows the close icon
-	jQuery( ".close-project" ).delay(1200).fadeIn(500);
+	jQuery( ".close-project" ).delay(150).fadeIn(800);
 					
 }
 
