@@ -1251,11 +1251,7 @@ nav#responsive-nav .sub-menu li a {
 	text-align: center;
 	position: absolute;
 	width: 100%;
-<<<<<<< HEAD
 	bottom: 130px;
-=======
-	top: 50px !important;
->>>>>>> 5175bf137f8e014f7182db09dc4a1a047e7b2999
 	left: 0;
 	display: none;
 	}
