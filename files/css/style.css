@@ -39,16 +39,22 @@ special/yellow-ish color: #FF970D;
 
 /** -1. Temporary Uncategorized
 ------------------------------------------------**/
+
+.scrambler{
+
+}
+
 .link-contact {
 	color: #4da5f5;
 	font-family: 'Raleway';
 	font-weight: 400;
-	text-align: left;
  }
 
-/*
+
 .link-contact:hover {
 	color: #4da5f5;
+
+	/*
 -webkit-transition: all 200ms linear;
 -moz-transition: all 200ms linear;
 -o-transition: all 200ms linear;
