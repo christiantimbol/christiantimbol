@@ -40,9 +40,17 @@ special/yellow-ish color: #FF970D;
 /** -1. Temporary Uncategorized
 ------------------------------------------------**/
 
-.scrambler{
 
-}
+ .scrambler{
+	  justify-content: center;
+	  align-items: center;
+	  display: flex;
+  }
+
+  .dud{
+    color: #999999;
+  }
+
 
 .link-contact {
 	color: #4da5f5;
