@@ -40,6 +40,26 @@ special/yellow-ish color: #FF970D;
 /** -1. Temporary Uncategorized
 ------------------------------------------------**/
 
+/*** Retina ***/
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2) {
+	.open-responsive-nav span,
+	.single-pagination li a,
+	#entries-pagination li a,
+	.close-project a,
+	.easy-opener-close,
+	.easy-opener-next,
+	.easy-opener-prev,
+	.flex-direction-nav a,
+	.tp-leftarrow.default, .tp-rightarrow.default
+	{
+		background-image: url(../images/sprites.png);
+		-webkit-background-size: 480px 40px;
+	   	-moz-background-size: 480px 40px;
+	    -o-background-size: 480px 40px;
+		background-size: 480px 40px;
+	}
+}
 
  .scrambler{
 	  justify-content: center;
