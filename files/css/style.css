@@ -95,7 +95,7 @@ transition: all 200ms linear;
   }
 
   .accordion-content {display: none;}
-  .accordion-content.default {display: none; text-align: left;}
+  .accordion-content.default {display: none; text-align: left; width: 99.9%;}
 
 
 /** 0. Resets/Clearfixes
